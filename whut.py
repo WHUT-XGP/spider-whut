@@ -40,7 +40,7 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
     "Cookie":
 }
-# 975C46D733324E0799A4ACAAC7DB1FC6  BC196C4FF21BD35F209DE693F08517B4
+
 # 3.封装req对象
 try:
     req = urllib.request.Request(url=url, headers=headers, method="POST", data=data)
